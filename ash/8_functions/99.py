@@ -12,5 +12,4 @@ def cost(circle_area, cost_per_sqm):
     return total_cost
 
 
-tc = cost(area(10,3.15), 2) 
-print(tc)
+print(cost(area(10,3.15), 2))
